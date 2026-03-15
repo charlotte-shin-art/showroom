@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Gallery Preview</title>
+    <style>
+        body { font-family: sans-serif; background: #fff; margin: 20px; }
+        .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+        .item { border: 1px solid #ccc; padding: 10px; text-align: center; }
+        img { max-width: 100%; height: 300px; object-fit: contain; }
+        .filename { word-break: break-all; font-weight: bold; font-size: 14px; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Image Identification Gallery</h1>
+    <div class="grid" id="grid"></div>
+    <script>
+        const images = [
+            "grok-image-50d54fb6-8344-4b93-a919-893349619169.png",
+            "grok-image-6b491642-eb94-4803-8332-dd75d1bd0777.png",
+            "grok-image-9329acf4-c315-4f13-95bc-7d0229ab36cd.png",
+            "grok-image-b59b99a6-0dcf-4f42-98e5-f795f994ebc7.png",
+            "grok-image-bd387de1-2c03-490b-967b-c73479014b23.png",
+            "grok-image-bea9edba-2603-4e92-9a94-28705e3236e3.png",
+            "grok-image-cb7f7b61-660d-4a54-912f-537c60962a27.png",
+            "grok-image-e5878f4c-3361-496b-ab5c-b7f72b3afdda.png",
+            "21fd8ea4-128a-4777-aafd-d536ba0a9d9e.jpg",
+            "37658774-8152-44dc-ba67-b53d1cb6579d.jpg",
+            "488ff6c9-4811-4801-aee4-b853ac70172e.jpg",
+            "5e988cd5-387c-4105-9ea8-a7e8d536c61d.jpg",
+            "640afc44-2cde-48d4-bd04-3412d5e43be7.jpg",
+            "6c1d6f15-ceb7-4684-9b40-b9892e3e2710.jpg",
+            "962096fa-582a-495a-8fb7-5641559e854e.jpg",
+            "9dcf2542-a42b-4748-9a7f-2485a1381028.jpg",
+            "b26d0268-de43-4b44-9240-2c024ae6cb40.jpg",
+            "f7bf012a-7b79-44b5-af1a-5d7c9c5f04b4.jpg"
+        ];
+        
+        const grid = document.getElementById("grid");
+        images.forEach(filename => {
+            const div = document.createElement("div");
+            div.className = "item";
+            div.innerHTML = `<img src="visualizations/${filename}"><div class="filename">${filename}</div>`;
+            grid.appendChild(div);
+        });
+    </script>
+</body>
+</html>

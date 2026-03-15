@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr" class="antialiased">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GALERIE DE L'ÉCLAT | The Glow Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1 class="brand-title">GALERIE DE L'ÉCLAT</h1>
+        <p class="brand-subtitle">Oeuvres Originales et Assistées par l'IA<br><span style="font-size: 0.8em; letter-spacing: 0.1em; opacity: 0.7;">Original & AI-Assisted Artworks</span></p>
+    </header>
+
+    <!-- Artist Profile Section -->
+    <section class="profile-section">
+        <div class="profile-image-container">
+            <!-- Uses the pre-generated StoreAvatar -->
+            <img src="charlotte_shin.png" alt="Dr. Charlotte Shin" id="author-avatar" class="profile-avatar" style="cursor: pointer;" onerror="this.src='https://via.placeholder.com/150/222222/ffffff?text=Charlotte'">
+        </div>
+        <h2 class="profile-name">Dr. Charlotte Shin</h2>
+        <p class="profile-bio" style="font-style: italic; margin-bottom: 0.5rem; color: #555;">
+            "La beauté réside dans la précision de la science et l'éclat de l'art."
+        </p>
+        <p class="profile-bio">
+            Une dermatologue sud-coréenne et médecin britannique, actuellement basée à Dublin, Irlande. Elle explore les frontières entre la médecine esthétique et l'art numérique, créant des œuvres où la texture humaine rencontre la vision de l'intelligence artificielle.<br><br>
+            <span style="font-size: 0.85em; opacity: 0.8;">South Korean Board-Certified Dermatologist & UK Medical Doctor currently based in Dublin, Ireland. Exploring the intersection of human aesthetic precision and AI-assisted visual arts.</span>
+        </p>
+        <div class="profile-tags">
+            <span class="tag">Galerie / Gallery</span>
+        </div>
+        
+        <div class="shop-notice" style="margin-top: 2.5rem; padding: 1.5rem; border: 1px solid var(--border-color); border-radius: 8px; background-color: #fff;">
+            <p style="font-family: var(--font-sans); font-size: 0.9rem; color: var(--text-primary); margin-bottom: 0.5rem; font-weight: 500;">
+                Discover Our Collections
+            </p>
+            <p style="font-family: var(--font-sans); font-size: 0.85rem; color: var(--text-secondary); line-height: 1.6;">
+                The artworks displayed here are available as apparel, accessories, and art prints on our <strong><a href="https://DrEyeArtist.redbubble.com" target="_blank" rel="noopener noreferrer" style="color: var(--text-primary); text-decoration: underline;">Redbubble shop</a></strong>. Click on each artwork to discover its product link.
+            </p>
+        </div>
+    </section>
+
+    <!-- Masonry Gallery Section -->
+    <main class="gallery-container" id="gallery-container">
+        <!-- Gallery items injected by script.js -->
+    </main>
+
+    <!-- Lightbox Modal for Gallery Artworks -->
+    <div id="lightbox-modal" class="modal">
+        <span class="modal-close">&times;</span>
+        <div class="modal-content-wrapper">
+            <div class="modal-image-container">
+                <img class="modal-content" id="modal-img">
+            </div>
+            <div class="modal-details" id="modal-details">
+                <h3 id="modal-title"></h3>
+                <p id="modal-category" style="font-style: italic; color: #888; font-size: 0.9em; margin-bottom: 0.5rem;"></p>
+                <p id="modal-desc"></p>
+                <a id="modal-link" href="#" target="_blank" class="redbubble-btn">Get it on Redbubble</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Author Profile Modal -->
+    <div id="author-modal" class="modal">
+        <span class="author-modal-close" style="position: absolute; top: 15px; right: 25px; color: #fff; font-size: 35px; font-weight: 300; cursor: pointer; transition: 0.3s; z-index: 1001;">&times;</span>
+        <div class="modal-content-wrapper" style="max-width: 900px;">
+            <div class="modal-image-container">
+                <img class="modal-content" src="charlotte_shin.png" id="author-modal-img">
+            </div>
+            <div class="modal-details" id="author-modal-details" style="display: flex; flex-direction: column; justify-content: center;">
+                <h3 style="font-family: 'Playfair Display', serif; font-size: 2rem; margin-bottom: 0.2rem; color: #fff;">Dr. Charlotte Shin</h3>
+                <p style="font-style: italic; color: #aaa; font-size: 0.9em; margin-bottom: 1.5rem; letter-spacing: 1px;">Scientific Precision & Visionary Aesthetics</p>
+                <p style="color: #ccc; line-height: 1.6; font-size: 0.95em;">
+                    <strong>Curriculum Vitae / Parcours</strong><br><br>
+                    Dr. Charlotte Shin est une spécialiste en dermatologie originaire de Corée du Sud et un médecin qualifié au Royaume-Uni. Actuellement résidente à Dublin, en Irlande, elle mène une carrière hybride unique où son expertise clinique sur la structure et la texture de la peau rencontre sa passion pour les arts visuels assistés par l'IA.<br><br>
+                    Son œuvre "L'Atelier Antigravity" est une méditation visuelle sur la frontière entre la biologie humaine et les algorithmes génératifs, incarnant l'esthétique d'une science perfectionnée.<br><br>
+                    <span style="opacity: 0.8; font-size: 0.9em;">(Dr. Charlotte Shin is a South Korean Board-Certified Dermatologist and a UK Medical Doctor currently based in Dublin. She leads a unique hybrid discipline combining her clinical expertise in skin physiology with her passion for AI-assisted visual arts.)</span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer / Disclaimer -->
+    <footer class="gallery-footer">
+        <div class="footer-content">
+            <img src="logo.png" alt="Galerie de L'Éclat Logo" class="footer-logo" onerror="this.style.display='none'">
+            <p>&copy; 2026 Dr. Charlotte Shin &amp; GALERIE DE L'ÉCLAT. Tous droits réservés.</p>
+            <p class="disclaimer">
+                <strong>Disclaimer:</strong> Ce site est une galerie de portfolio numérique. Il ne vend pas directement de produits physiques. Toutes les commandes, l'impression, la fabrication, le paiement et l'expédition sont gérés exclusivement par la plateforme <a href="https://www.redbubble.com" target="_blank" rel="noopener noreferrer">Redbubble</a>.
+            </p>
+            <p class="disclaimer" style="opacity: 0.7;">
+                (This site serves as a digital portfolio gallery and does not directly sell physical goods. All orders, printing, manufacturing, payments, and shipping are exclusively handled by Redbubble.)
+            </p>
+        </div>
+    </footer>
+
+    <script src="gallery_data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

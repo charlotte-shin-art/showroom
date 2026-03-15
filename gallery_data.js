@@ -6,7 +6,7 @@ window.galleryData = [
     "fallback_src": "https://via.placeholder.com/800x800/eeeeee/888888?text=Grok+50D54Fb6+8344+4B93+A919+893349619169",
     "title": "L'Écho de la Lumière (Echo of Light)",
     "category": "Visionary Photography",
-    "desc": "An exclusive exploration of light, texture, and emotion, curated for the L'Atelier Antigravity collection. The pristine 8000x8000 resolution captures the most delicate nuances of the original vision.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).*",
+    "desc": "Une étude délicate de la lumière qui se reflète et se brise à travers le prisme de l'émotion humaine. A delicate study of light as it reflects and refracts through the prism of human emotion.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).* ",
     "link": "https://www.redbubble.com"
   },
   {
@@ -16,7 +16,7 @@ window.galleryData = [
     "fallback_src": "https://via.placeholder.com/800x800/eeeeee/888888?text=Grok+6B491642+Eb94+4803+8332+Dd75D1Bd0777",
     "title": "Rêverie Nocturne (Nocturnal Reverie)",
     "category": "Digital Fine Art",
-    "desc": "An exclusive exploration of light, texture, and emotion, curated for the L'Atelier Antigravity collection. The pristine 8000x8000 resolution captures the most delicate nuances of the original vision.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).*",
+    "desc": "Un voyage onirique dans les profondeurs de la nuit, là où les étoiles murmurent des secrets anciens. A dreamlike journey into the depths of the night, where stars whisper ancient secrets.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).* ",
     "link": "https://www.redbubble.com"
   },
   {
@@ -26,7 +26,7 @@ window.galleryData = [
     "fallback_src": "https://via.placeholder.com/800x800/eeeeee/888888?text=Grok+9329Acf4+C315+4F13+95Bc+7D0229Ab36Cd",
     "title": "Silence d'Or (Golden Silence)",
     "category": "Neo-Classic Impressionism",
-    "desc": "An exclusive exploration of light, texture, and emotion, curated for the L'Atelier Antigravity collection. The pristine 8000x8000 resolution captures the most delicate nuances of the original vision.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).*",
+    "desc": "L'immobilité pure capturée dans des tons dorés, offrant un moment de paix absolue. Pure stillness captured in golden hues, offering a moment of absolute peace.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).* ",
     "link": "https://www.redbubble.com"
   },
   {
@@ -36,7 +36,7 @@ window.galleryData = [
     "fallback_src": "https://via.placeholder.com/800x800/eeeeee/888888?text=Grok+B59B99A6+0Dcf+4F42+98E5+F795F994Ebc7",
     "title": "Vagues d'Émeraude (Emerald Waves)",
     "category": "Surrealism",
-    "desc": "An exclusive exploration of light, texture, and emotion, curated for the L'Atelier Antigravity collection. The pristine 8000x8000 resolution captures the most delicate nuances of the original vision.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).*",
+    "desc": "L'énergie fluide et hypnotique de la mer traduite en formes abstraites et vibrantes. The fluid, hypnotic energy of the sea translated into vibrant and abstract forms.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).* ",
     "link": "https://www.redbubble.com"
   },
   {
@@ -46,7 +46,7 @@ window.galleryData = [
     "fallback_src": "https://via.placeholder.com/800x800/eeeeee/888888?text=Grok+Bd387De1+2C03+490B+967B+C73479014B23",
     "title": "Souffle du Vent (Breath of the Wind)",
     "category": "Modernist Abstract",
-    "desc": "An exclusive exploration of light, texture, and emotion, curated for the L'Atelier Antigravity collection. The pristine 8000x8000 resolution captures the most delicate nuances of the original vision.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).*",
+    "desc": "La texture de l'air en mouvement, peinte avec une précision poétique et abstraite. The texture of moving air, painted with poetic and abstract precision.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).* ",
     "link": "https://www.redbubble.com"
   },
   {
@@ -56,7 +56,7 @@ window.galleryData = [
     "fallback_src": "https://via.placeholder.com/800x800/eeeeee/888888?text=Grok+Bea9Edba+2603+4E92+9A94+28705E3236E3",
     "title": "Éternité Fragmentée (Fragmented Eternity)",
     "category": "Visionary Photography",
-    "desc": "An exclusive exploration of light, texture, and emotion, curated for the L'Atelier Antigravity collection. The pristine 8000x8000 resolution captures the most delicate nuances of the original vision.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).*",
+    "desc": "Des éclats de temps suspendus dans un vide infini, explorant la nature fragmentaire du souvenir. Splinters of time suspended in an infinite void, exploring the fragmented nature of memory.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).* ",
     "link": "https://www.redbubble.com"
   },
   {
@@ -66,7 +66,7 @@ window.galleryData = [
     "fallback_src": "https://via.placeholder.com/800x800/eeeeee/888888?text=Grok+Cb7F7B61+660D+4A54+912F+537C60962A27",
     "title": "Miroir de l'Âme (Mirror of the Soul)",
     "category": "Digital Fine Art",
-    "desc": "An exclusive exploration of light, texture, and emotion, curated for the L'Atelier Antigravity collection. The pristine 8000x8000 resolution captures the most delicate nuances of the original vision.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).*",
+    "desc": "Une introspection visuelle qui reflète la complexité et la beauté de l'esprit intérieur. A visual introspection that reflects the complexity and beauty of the inner mind.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).* ",
     "link": "https://www.redbubble.com"
   },
   {
@@ -76,7 +76,7 @@ window.galleryData = [
     "fallback_src": "https://via.placeholder.com/800x800/eeeeee/888888?text=Grok+E5878F4C+3361+496B+Ab5C+B7F72B3Afdda",
     "title": "Danse Céleste (Celestial Dance)",
     "category": "Neo-Classic Impressionism",
-    "desc": "An exclusive exploration of light, texture, and emotion, curated for the L'Atelier Antigravity collection. The pristine 8000x8000 resolution captures the most delicate nuances of the original vision.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).*",
+    "desc": "Le mouvement cosmique figé dans l'espace, éclatant de couleurs vibrantes et mystérieuses. Cosmic movement frozen in space, bursting with vibrant and mysterious colors.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).* ",
     "link": "https://www.redbubble.com"
   },
   {
@@ -86,7 +86,7 @@ window.galleryData = [
     "fallback_src": "https://via.placeholder.com/800x800/eeeeee/888888?text=21Fd8Ea4+128A+4777+Aafd+D536Ba0A9D9E",
     "title": "Ombre Douce (Sweet Shadow)",
     "category": "Surrealism",
-    "desc": "An exclusive exploration of light, texture, and emotion, curated for the L'Atelier Antigravity collection. The pristine 8000x8000 resolution captures the most delicate nuances of the original vision.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).*",
+    "desc": "Un jeu délicat de contrastes où l'obscurité sublime la lumière et réconforte l'âme. A delicate interplay of contrasts where darkness sublimates light and comforts the soul.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).* ",
     "link": "https://www.redbubble.com"
   },
   {
@@ -96,7 +96,7 @@ window.galleryData = [
     "fallback_src": "https://via.placeholder.com/800x800/eeeeee/888888?text=37658774+8152+44Dc+Ba67+B53D1Cb6579D",
     "title": "Fleur de Cristal (Crystal Flower)",
     "category": "Modernist Abstract",
-    "desc": "An exclusive exploration of light, texture, and emotion, curated for the L'Atelier Antigravity collection. The pristine 8000x8000 resolution captures the most delicate nuances of the original vision.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).*",
+    "desc": "La fragilité de la nature cristallisée en une structure éternelle et lumineuse. The fragility of nature crystallized into an eternal and luminous structure.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).* ",
     "link": "https://www.redbubble.com"
   },
   {
@@ -106,7 +106,7 @@ window.galleryData = [
     "fallback_src": "https://via.placeholder.com/800x800/eeeeee/888888?text=488Ff6C9+4811+4801+Aee4+B853Ac70172E",
     "title": "L'Aube Nouvelle (The New Dawn)",
     "category": "Visionary Photography",
-    "desc": "An exclusive exploration of light, texture, and emotion, curated for the L'Atelier Antigravity collection. The pristine 8000x8000 resolution captures the most delicate nuances of the original vision.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).*",
+    "desc": "L'espoir d'un nouveau départ, évoqué par des lueurs douces et des horizons poétiques. The hope of a new beginning, evoked by soft glows and poetic horizons.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).* ",
     "link": "https://www.redbubble.com"
   },
   {
@@ -116,7 +116,7 @@ window.galleryData = [
     "fallback_src": "https://via.placeholder.com/800x800/eeeeee/888888?text=5E988Cd5+387C+4105+9Ea8+A7E8D536C61D",
     "title": "Secret du Temps (Secret of Time)",
     "category": "Digital Fine Art",
-    "desc": "An exclusive exploration of light, texture, and emotion, curated for the L'Atelier Antigravity collection. The pristine 8000x8000 resolution captures the most delicate nuances of the original vision.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).*",
+    "desc": "Les couches invisibles de l'histoire accumulées dans des textures riches et énigmatiques. The invisible layers of history accumulated in rich and enigmatic textures.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).* ",
     "link": "https://www.redbubble.com"
   },
   {
@@ -126,7 +126,7 @@ window.galleryData = [
     "fallback_src": "https://via.placeholder.com/800x800/eeeeee/888888?text=640Afc44+2Cde+48D4+Bd04+3412D5E43Be7",
     "title": "Illusions Perdues (Lost Illusions)",
     "category": "Neo-Classic Impressionism",
-    "desc": "An exclusive exploration of light, texture, and emotion, curated for the L'Atelier Antigravity collection. The pristine 8000x8000 resolution captures the most delicate nuances of the original vision.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).*",
+    "desc": "Une réflexion sur l'éphémère et la beauté des rêves qui s'estompent doucement. A reflection on the ephemeral and the beauty of dreams that gently fade away.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).* ",
     "link": "https://www.redbubble.com"
   },
   {
@@ -136,7 +136,7 @@ window.galleryData = [
     "fallback_src": "https://via.placeholder.com/800x800/eeeeee/888888?text=6C1D6F15+Ceb7+4684+9B40+B9892E3E2710",
     "title": "Symphonie Visuelle (Visual Symphony)",
     "category": "Surrealism",
-    "desc": "An exclusive exploration of light, texture, and emotion, curated for the L'Atelier Antigravity collection. The pristine 8000x8000 resolution captures the most delicate nuances of the original vision.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).*",
+    "desc": "Un orchestre de couleurs et de formes qui résonne avec l'harmonie de l'univers. An orchestra of colors and shapes resonating with the harmony of the universe.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).* ",
     "link": "https://www.redbubble.com"
   },
   {
@@ -146,7 +146,7 @@ window.galleryData = [
     "fallback_src": "https://via.placeholder.com/800x800/eeeeee/888888?text=962096Fa+582A+495A+8Fb7+5641559E854E",
     "title": "Mélancolie Bleue (Blue Melancholy)",
     "category": "Modernist Abstract",
-    "desc": "An exclusive exploration of light, texture, and emotion, curated for the L'Atelier Antigravity collection. The pristine 8000x8000 resolution captures the most delicate nuances of the original vision.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).*",
+    "desc": "Une élégie silencieuse peinte dans des nuances profondes et apaisantes de bleu. A silent elegy painted in deep and soothing shades of blue.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).* ",
     "link": "https://www.redbubble.com"
   },
   {
@@ -156,7 +156,7 @@ window.galleryData = [
     "fallback_src": "https://via.placeholder.com/800x800/eeeeee/888888?text=9Dcf2542+A42B+4748+9A7F+2485A1381028",
     "title": "Esprit Sauvage (Wild Spirit)",
     "category": "Visionary Photography",
-    "desc": "An exclusive exploration of light, texture, and emotion, curated for the L'Atelier Antigravity collection. The pristine 8000x8000 resolution captures the most delicate nuances of the original vision.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).*",
+    "desc": "La force indéniable de la nature brute, capturée avec une passion audacieuse. The undeniable force of raw nature, captured with bold passion.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).* ",
     "link": "https://www.redbubble.com"
   },
   {
@@ -166,7 +166,7 @@ window.galleryData = [
     "fallback_src": "https://via.placeholder.com/800x800/eeeeee/888888?text=B26D0268+De43+4B44+9240+2C024Ae6Cb40",
     "title": "Horizon Infini (Infinite Horizon)",
     "category": "Digital Fine Art",
-    "desc": "An exclusive exploration of light, texture, and emotion, curated for the L'Atelier Antigravity collection. The pristine 8000x8000 resolution captures the most delicate nuances of the original vision.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).*",
+    "desc": "L'ouverture de l'espace et de l'esprit, où la vue se perd dans une plénitude absolue. The openness of space and mind, where sight loses itself in absolute fullness.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).* ",
     "link": "https://www.redbubble.com"
   },
   {
@@ -176,7 +176,7 @@ window.galleryData = [
     "fallback_src": "https://via.placeholder.com/800x800/eeeeee/888888?text=F7Bf012A+7B79+44B5+Af1A+5D7C9C5F04B4",
     "title": "Poésie Silencieuse (Silent Poetry)",
     "category": "Neo-Classic Impressionism",
-    "desc": "An exclusive exploration of light, texture, and emotion, curated for the L'Atelier Antigravity collection. The pristine 8000x8000 resolution captures the most delicate nuances of the original vision.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).*",
+    "desc": "Des mots non dits qui trouvent leur expression dans des compositions visuelles pures. Unspoken words finding expression in pure visual compositions.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).* ",
     "link": "https://www.redbubble.com"
   }
 ];

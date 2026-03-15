@@ -20,13 +20,16 @@ FRENCH_CATEGORIES = ["Visionary Photography", "Digital Fine Art", "Neo-Classic I
 FRENCH_DESC = "An exclusive exploration of light, texture, and emotion, curated for the L'Atelier Antigravity collection. The pristine 8000x8000 resolution captures the most delicate nuances of the original vision.\n\n*Œuvre originale, perfectionnée avec l'assistance de l'IA (AI-assisted).*"
 
 SHOWROOM_DIR = os.path.dirname(os.path.abspath(__file__))
-VISUALIZATIONS_DIR = os.path.join(os.path.dirname(SHOWROOM_DIR), "visualizations")
+EXTERNAL_VISUALIZATIONS_DIR = os.path.join(os.path.dirname(SHOWROOM_DIR), "visualizations")
+LOCAL_VISUALIZATIONS_DIR = os.path.join(SHOWROOM_DIR, "visualizations")
 THUMBNAILS_DIR = os.path.join(SHOWROOM_DIR, "thumbnails")
 JS_PATH = os.path.join(SHOWROOM_DIR, "gallery_data.js")
 
 def main():
     if not os.path.exists(THUMBNAILS_DIR):
         os.makedirs(THUMBNAILS_DIR)
+    if not os.path.exists(LOCAL_VISUALIZATIONS_DIR):
+        os.makedirs(LOCAL_VISUALIZATIONS_DIR)
 
     # Load existing JS Data
     gallery_data = []
@@ -44,15 +47,21 @@ def main():
     # Index existing items by src
     existing_srcs = {item['src']: item for item in gallery_data}
     
-    # Find all png and jpg images in visualizations folder
-    image_files = glob.glob(os.path.join(VISUALIZATIONS_DIR, "*.png")) + glob.glob(os.path.join(VISUALIZATIONS_DIR, "*.jpg"))
+    # Find all png and jpg images in external visualizations folder
+    import shutil
+    image_files = glob.glob(os.path.join(EXTERNAL_VISUALIZATIONS_DIR, "*.png")) + glob.glob(os.path.join(EXTERNAL_VISUALIZATIONS_DIR, "*.jpg"))
     
     new_items = []
     updated_count = 0
 
     for img_path in image_files:
         filename = os.path.basename(img_path)
-        src_path = f"../visualizations/{filename}"
+        # Copy original image to local repository folder for GitHub Pages deployment
+        local_img_abs_path = os.path.join(LOCAL_VISUALIZATIONS_DIR, filename)
+        if not os.path.exists(local_img_abs_path):
+            shutil.copy2(img_path, local_img_abs_path)
+            
+        src_path = f"visualizations/{filename}"
         thumb_filename = f"thumb_{filename}"
         thumb_rel_path = f"thumbnails/{thumb_filename}"
         thumb_abs_path = os.path.join(THUMBNAILS_DIR, thumb_filename)
